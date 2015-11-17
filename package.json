@@ -2,6 +2,7 @@
   "name": "npm-shell-debug",
   "version": "1.0.1",
   "description": "Debug the shell that NPM launches to run your scripts",
+  "repository": "exogen/npm-shell-debug",
   "main": "index.js",
   "scripts": {
     "debug": "which sh; echo $SHELL; echo $SHELLOPTS; shopt",
