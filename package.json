@@ -1,0 +1,17 @@
+{
+  "name": "npm-shell-debug",
+  "version": "1.0.0",
+  "description": "Debug the shell that NPM launches to run your scripts",
+  "main": "index.js",
+  "scripts": {
+    "debug": "which sh; echo $SHELL; echo $SHELLOPTS; shopt",
+    "postinstall": "npm run debug"
+  },
+  "keywords": [
+    "shell",
+    "npm",
+    "debug"
+  ],
+  "author": "Brian Beck",
+  "license": "MIT"
+}
