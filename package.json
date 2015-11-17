@@ -1,6 +1,6 @@
 {
   "name": "npm-shell-debug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Debug the shell that NPM launches to run your scripts",
   "repository": "exogen/npm-shell-debug",
   "main": "index.js",
