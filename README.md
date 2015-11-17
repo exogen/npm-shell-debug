@@ -11,6 +11,6 @@ echo $SHELLOPTS
 shopt
 ```
 
-If you're experience any errors when running something in `scripts`, or when
-you install a package that runs `postinstall`, then installing this package
-might help you debug why the `script` is broken.
+If you're experiencing any errors when running something in `scripts`, or when
+you install a package that has a `postinstall`, then installing this package
+might help you debug why the command fails on your machine.
